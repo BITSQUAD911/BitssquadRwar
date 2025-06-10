@@ -13,6 +13,31 @@ header {
   color: white;
 }
 
+nav {
+  background-color: #d4b3ff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4a0072;
+  font-weight: bold;
+}
+
 main {
   padding: 30px 15px;
   max-width: 1000px;
@@ -49,14 +74,6 @@ h1, h2 {
   border-radius: 8px;
   margin-bottom: 10px;
   object-fit: cover;
-}
-
-.anggota-card h3 {
-  margin: 10px 0 5px;
-}
-
-.anggota-card p {
-  margin: 5px 0;
 }
 
 footer {
